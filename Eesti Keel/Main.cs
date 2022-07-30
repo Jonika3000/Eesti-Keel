@@ -466,7 +466,9 @@ namespace Eesti_Keel
                 {
                     metroTextBox3.Text = metroTextBox3.Text.Remove(metroTextBox3.Text.Length - 1, 1);
                 }
-                words.Add(new Words(metroTextBox2.Text, metroTextBox3.Text));
+                string n1 = metroTextBox2.Text.ToLower();
+                string n2 = metroTextBox3.Text.ToLower();
+                words.Add(new Words(n1, n2));
                 //Serialize();
                 metroTextBox3.Text = string.Empty;
                 metroTextBox2.Text = string.Empty;
@@ -547,6 +549,7 @@ namespace Eesti_Keel
         }
         private void AddWordsFromFile(object sender, EventArgs e)
         {
+            SoundButtonClick();
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.ShowDialog();
             string FileName = openFile.FileName;
@@ -581,9 +584,10 @@ namespace Eesti_Keel
             metroProgressSpinner1.Visible = true;
             foreach (var w in wrds)
             {
-                if (TranslateText(w, "ru", "et") != string.Empty)
+                string n = w.ToLower();
+                if (TranslateText(n, "ru", "et") != string.Empty)
                 {
-                    words.Add(new Words(w, TranslateText(w, "ru", "et")));
+                    words.Add(new Words(n, TranslateText(n, "ru", "et").ToLower()));
                 }
                 metroProgressSpinner1.Value++;
             }
@@ -708,13 +712,15 @@ namespace Eesti_Keel
         private void button3_Click(object sender, EventArgs e)
         {
             SoundButtonClick();
+            if(metroTextBox1.Text != string.Empty)
             Clipboard.SetText(metroTextBox1.Text);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             SoundButtonClick();
-            Clipboard.SetText(metroTextBox5.Text);
+            if (metroTextBox5.Text != string.Empty)
+                Clipboard.SetText(metroTextBox5.Text);
 
         }
 
@@ -888,9 +894,14 @@ namespace Eesti_Keel
         private void metroButton116_Click(object sender, EventArgs e)
         {
             SoundButtonClick();
-            Words n = new Words(metroTextBox1.Text, metroTextBox5.Text);
-            words.Add(n);
-
+            if(metroTextBox1.Text != string.Empty && metroTextBox5.Text != string.Empty)
+            {
+                string n1 = metroTextBox1.Text.ToLower();
+                string n2 = metroTextBox5.Text.ToLower();
+                Words n = new Words(n1, n2);
+                words.Add(n);
+            }
+            
 
         }
 

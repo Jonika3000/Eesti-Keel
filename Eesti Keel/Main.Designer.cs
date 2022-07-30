@@ -31,18 +31,47 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.metroStyleManager1 = new MetroFramework.Components.MetroStyleManager();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.metroProgressSpinner1 = new MetroFramework.Controls.MetroProgressSpinner();
-            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox12 = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
-            this.metroCheckBox5 = new MetroFramework.Controls.MetroCheckBox();
-            this.metroTextBox11 = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
-            this.metroCheckBox4 = new MetroFramework.Controls.MetroCheckBox();
-            this.metroCheckBox3 = new MetroFramework.Controls.MetroCheckBox();
-            this.metroTextBox10 = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.metroButton40 = new MetroFramework.Controls.MetroButton();
+            this.RB32 = new MetroFramework.Controls.MetroButton();
+            this.RB31 = new MetroFramework.Controls.MetroButton();
+            this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
+            this.metroButton43 = new MetroFramework.Controls.MetroButton();
+            this.RB30 = new MetroFramework.Controls.MetroButton();
+            this.RB29 = new MetroFramework.Controls.MetroButton();
+            this.RB28 = new MetroFramework.Controls.MetroButton();
+            this.RB27 = new MetroFramework.Controls.MetroButton();
+            this.RB26 = new MetroFramework.Controls.MetroButton();
+            this.RB25 = new MetroFramework.Controls.MetroButton();
+            this.RB24 = new MetroFramework.Controls.MetroButton();
+            this.RB23 = new MetroFramework.Controls.MetroButton();
+            this.RB22 = new MetroFramework.Controls.MetroButton();
+            this.RB21 = new MetroFramework.Controls.MetroButton();
+            this.RB20 = new MetroFramework.Controls.MetroButton();
+            this.RB19 = new MetroFramework.Controls.MetroButton();
+            this.RB18 = new MetroFramework.Controls.MetroButton();
+            this.RB17 = new MetroFramework.Controls.MetroButton();
+            this.RB16 = new MetroFramework.Controls.MetroButton();
+            this.RB15 = new MetroFramework.Controls.MetroButton();
+            this.RB14 = new MetroFramework.Controls.MetroButton();
+            this.RB13 = new MetroFramework.Controls.MetroButton();
+            this.RB12 = new MetroFramework.Controls.MetroButton();
+            this.RB11 = new MetroFramework.Controls.MetroButton();
+            this.RB10 = new MetroFramework.Controls.MetroButton();
+            this.RB9 = new MetroFramework.Controls.MetroButton();
+            this.RB8 = new MetroFramework.Controls.MetroButton();
+            this.RB7 = new MetroFramework.Controls.MetroButton();
+            this.RB6 = new MetroFramework.Controls.MetroButton();
+            this.RB5 = new MetroFramework.Controls.MetroButton();
+            this.RB4 = new MetroFramework.Controls.MetroButton();
+            this.RB3 = new MetroFramework.Controls.MetroButton();
+            this.RB2 = new MetroFramework.Controls.MetroButton();
+            this.RB1 = new MetroFramework.Controls.MetroButton();
+            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.metroButton38 = new MetroFramework.Controls.MetroButton();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.metroButton116 = new MetroFramework.Controls.MetroButton();
             this.button4 = new System.Windows.Forms.Button();
@@ -91,47 +120,6 @@
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.metroButton40 = new MetroFramework.Controls.MetroButton();
-            this.RB32 = new MetroFramework.Controls.MetroButton();
-            this.RB31 = new MetroFramework.Controls.MetroButton();
-            this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
-            this.metroButton43 = new MetroFramework.Controls.MetroButton();
-            this.RB30 = new MetroFramework.Controls.MetroButton();
-            this.RB29 = new MetroFramework.Controls.MetroButton();
-            this.RB28 = new MetroFramework.Controls.MetroButton();
-            this.RB27 = new MetroFramework.Controls.MetroButton();
-            this.RB26 = new MetroFramework.Controls.MetroButton();
-            this.RB25 = new MetroFramework.Controls.MetroButton();
-            this.RB24 = new MetroFramework.Controls.MetroButton();
-            this.RB23 = new MetroFramework.Controls.MetroButton();
-            this.RB22 = new MetroFramework.Controls.MetroButton();
-            this.RB21 = new MetroFramework.Controls.MetroButton();
-            this.RB20 = new MetroFramework.Controls.MetroButton();
-            this.RB19 = new MetroFramework.Controls.MetroButton();
-            this.RB18 = new MetroFramework.Controls.MetroButton();
-            this.RB17 = new MetroFramework.Controls.MetroButton();
-            this.RB16 = new MetroFramework.Controls.MetroButton();
-            this.RB15 = new MetroFramework.Controls.MetroButton();
-            this.RB14 = new MetroFramework.Controls.MetroButton();
-            this.RB13 = new MetroFramework.Controls.MetroButton();
-            this.RB12 = new MetroFramework.Controls.MetroButton();
-            this.RB11 = new MetroFramework.Controls.MetroButton();
-            this.RB10 = new MetroFramework.Controls.MetroButton();
-            this.RB9 = new MetroFramework.Controls.MetroButton();
-            this.RB8 = new MetroFramework.Controls.MetroButton();
-            this.RB7 = new MetroFramework.Controls.MetroButton();
-            this.RB6 = new MetroFramework.Controls.MetroButton();
-            this.RB5 = new MetroFramework.Controls.MetroButton();
-            this.RB4 = new MetroFramework.Controls.MetroButton();
-            this.RB3 = new MetroFramework.Controls.MetroButton();
-            this.RB2 = new MetroFramework.Controls.MetroButton();
-            this.RB1 = new MetroFramework.Controls.MetroButton();
-            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
-            this.metroButton38 = new MetroFramework.Controls.MetroButton();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.metroButton114 = new MetroFramework.Controls.MetroButton();
             this.metroButton41 = new MetroFramework.Controls.MetroButton();
@@ -222,13 +210,25 @@
             this.metroButton110 = new MetroFramework.Controls.MetroButton();
             this.metroButton109 = new MetroFramework.Controls.MetroButton();
             this.metroButton108 = new MetroFramework.Controls.MetroButton();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.metroProgressSpinner1 = new MetroFramework.Controls.MetroProgressSpinner();
+            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
+            this.metroTextBox12 = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
+            this.metroCheckBox5 = new MetroFramework.Controls.MetroCheckBox();
+            this.metroTextBox11 = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
+            this.metroCheckBox4 = new MetroFramework.Controls.MetroCheckBox();
+            this.metroCheckBox3 = new MetroFramework.Controls.MetroCheckBox();
+            this.metroTextBox10 = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
             this.metroTabControl1.SuspendLayout();
-            this.tabPage6.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.SuspendLayout();
             // 
             // metroStyleManager1
@@ -260,219 +260,661 @@
             this.metroTabControl1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTabControl1.UseStyleColors = false;
             // 
-            // tabPage6
+            // tabPage2
             // 
-            this.tabPage6.BackgroundImage = global::Eesti_Keel.Properties.Resources._1161810;
-            this.tabPage6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage6.Controls.Add(this.metroProgressSpinner1);
-            this.tabPage6.Controls.Add(this.metroLabel15);
-            this.tabPage6.Controls.Add(this.metroTextBox12);
-            this.tabPage6.Controls.Add(this.metroLabel14);
-            this.tabPage6.Controls.Add(this.metroCheckBox5);
-            this.tabPage6.Controls.Add(this.metroTextBox11);
-            this.tabPage6.Controls.Add(this.metroLabel13);
-            this.tabPage6.Controls.Add(this.metroCheckBox4);
-            this.tabPage6.Controls.Add(this.metroCheckBox3);
-            this.tabPage6.Controls.Add(this.metroTextBox10);
-            this.tabPage6.Controls.Add(this.metroLabel12);
-            this.tabPage6.Location = new System.Drawing.Point(4, 35);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(998, 503);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Settings";
+            this.tabPage2.BackgroundImage = global::Eesti_Keel.Properties.Resources._1161810;
+            this.tabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage2.Controls.Add(this.metroButton40);
+            this.tabPage2.Controls.Add(this.RB32);
+            this.tabPage2.Controls.Add(this.RB31);
+            this.tabPage2.Controls.Add(this.metroCheckBox1);
+            this.tabPage2.Controls.Add(this.metroButton43);
+            this.tabPage2.Controls.Add(this.RB30);
+            this.tabPage2.Controls.Add(this.RB29);
+            this.tabPage2.Controls.Add(this.RB28);
+            this.tabPage2.Controls.Add(this.RB27);
+            this.tabPage2.Controls.Add(this.RB26);
+            this.tabPage2.Controls.Add(this.RB25);
+            this.tabPage2.Controls.Add(this.RB24);
+            this.tabPage2.Controls.Add(this.RB23);
+            this.tabPage2.Controls.Add(this.RB22);
+            this.tabPage2.Controls.Add(this.RB21);
+            this.tabPage2.Controls.Add(this.RB20);
+            this.tabPage2.Controls.Add(this.RB19);
+            this.tabPage2.Controls.Add(this.RB18);
+            this.tabPage2.Controls.Add(this.RB17);
+            this.tabPage2.Controls.Add(this.RB16);
+            this.tabPage2.Controls.Add(this.RB15);
+            this.tabPage2.Controls.Add(this.RB14);
+            this.tabPage2.Controls.Add(this.RB13);
+            this.tabPage2.Controls.Add(this.RB12);
+            this.tabPage2.Controls.Add(this.RB11);
+            this.tabPage2.Controls.Add(this.RB10);
+            this.tabPage2.Controls.Add(this.RB9);
+            this.tabPage2.Controls.Add(this.RB8);
+            this.tabPage2.Controls.Add(this.RB7);
+            this.tabPage2.Controls.Add(this.RB6);
+            this.tabPage2.Controls.Add(this.RB5);
+            this.tabPage2.Controls.Add(this.RB4);
+            this.tabPage2.Controls.Add(this.RB3);
+            this.tabPage2.Controls.Add(this.RB2);
+            this.tabPage2.Controls.Add(this.RB1);
+            this.tabPage2.Controls.Add(this.metroTextBox3);
+            this.tabPage2.Controls.Add(this.metroTextBox2);
+            this.tabPage2.Controls.Add(this.metroButton38);
+            this.tabPage2.Controls.Add(this.metroLabel2);
+            this.tabPage2.Controls.Add(this.metroLabel1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 35);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Size = new System.Drawing.Size(998, 503);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Add Word";
             // 
-            // metroProgressSpinner1
+            // metroButton40
             // 
-            this.metroProgressSpinner1.CustomBackground = false;
-            this.metroProgressSpinner1.Location = new System.Drawing.Point(494, 404);
-            this.metroProgressSpinner1.Maximum = 100;
-            this.metroProgressSpinner1.Name = "metroProgressSpinner1";
-            this.metroProgressSpinner1.Size = new System.Drawing.Size(51, 49);
-            this.metroProgressSpinner1.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroProgressSpinner1.StyleManager = null;
-            this.metroProgressSpinner1.TabIndex = 11;
-            this.metroProgressSpinner1.Text = "metroProgressSpinner1";
-            this.metroProgressSpinner1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroProgressSpinner1.Visible = false;
+            this.metroButton40.Font = new System.Drawing.Font("Showcard Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.metroButton40.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.metroButton40.Highlight = false;
+            this.metroButton40.Location = new System.Drawing.Point(749, 314);
+            this.metroButton40.Name = "metroButton40";
+            this.metroButton40.Size = new System.Drawing.Size(78, 39);
+            this.metroButton40.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroButton40.StyleManager = this.metroStyleManager1;
+            this.metroButton40.TabIndex = 75;
+            this.metroButton40.Text = "backspace";
+            this.metroButton40.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroButton40.Click += new System.EventHandler(this.metroButton40_Click);
             // 
-            // metroLabel15
+            // RB32
             // 
-            this.metroLabel15.AutoSize = true;
-            this.metroLabel15.CustomBackground = false;
-            this.metroLabel15.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel15.FontWeight = MetroFramework.MetroLabelWeight.Light;
-            this.metroLabel15.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel15.Location = new System.Drawing.Point(467, 456);
-            this.metroLabel15.Name = "metroLabel15";
-            this.metroLabel15.Size = new System.Drawing.Size(103, 25);
-            this.metroLabel15.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroLabel15.StyleManager = this.metroStyleManager1;
-            this.metroLabel15.TabIndex = 10;
-            this.metroLabel15.Text = "Wait please!";
-            this.metroLabel15.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroLabel15.UseStyleColors = false;
-            this.metroLabel15.Visible = false;
+            this.RB32.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB32.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB32.Highlight = false;
+            this.RB32.Location = new System.Drawing.Point(672, 402);
+            this.RB32.Name = "RB32";
+            this.RB32.Size = new System.Drawing.Size(41, 39);
+            this.RB32.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB32.StyleManager = this.metroStyleManager1;
+            this.RB32.TabIndex = 74;
+            this.RB32.Text = "ю";
+            this.RB32.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB32.Visible = false;
+            this.RB32.Click += new System.EventHandler(this.KeyBoardAddword);
             // 
-            // metroTextBox12
+            // RB31
             // 
-            this.metroTextBox12.FontSize = MetroFramework.MetroTextBoxSize.Small;
-            this.metroTextBox12.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
-            this.metroTextBox12.Location = new System.Drawing.Point(56, 302);
-            this.metroTextBox12.Multiline = false;
-            this.metroTextBox12.Name = "metroTextBox12";
-            this.metroTextBox12.SelectedText = "";
-            this.metroTextBox12.Size = new System.Drawing.Size(270, 25);
-            this.metroTextBox12.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox12.StyleManager = this.metroStyleManager1;
-            this.metroTextBox12.TabIndex = 9;
-            this.metroTextBox12.Text = "(enter path to file)";
-            this.metroTextBox12.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTextBox12.UseStyleColors = false;
-            this.metroTextBox12.Click += new System.EventHandler(this.AddWordsFromFile);
-            this.metroTextBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.metroTextBox12_KeyPress);
+            this.RB31.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB31.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB31.Highlight = false;
+            this.RB31.Location = new System.Drawing.Point(625, 402);
+            this.RB31.Name = "RB31";
+            this.RB31.Size = new System.Drawing.Size(41, 39);
+            this.RB31.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB31.StyleManager = this.metroStyleManager1;
+            this.RB31.TabIndex = 73;
+            this.RB31.Text = "б";
+            this.RB31.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB31.Visible = false;
+            this.RB31.Click += new System.EventHandler(this.KeyBoardAddword);
             // 
-            // metroLabel14
+            // metroCheckBox1
             // 
-            this.metroLabel14.AutoSize = true;
-            this.metroLabel14.CustomBackground = false;
-            this.metroLabel14.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel14.FontWeight = MetroFramework.MetroLabelWeight.Light;
-            this.metroLabel14.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel14.Location = new System.Drawing.Point(56, 274);
-            this.metroLabel14.Name = "metroLabel14";
-            this.metroLabel14.Size = new System.Drawing.Size(400, 25);
-            this.metroLabel14.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroLabel14.StyleManager = null;
-            this.metroLabel14.TabIndex = 8;
-            this.metroLabel14.Text = "Fill dictionary with words from file (.docx , .pdf , .txt)";
-            this.metroLabel14.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroLabel14.UseStyleColors = false;
+            this.metroCheckBox1.AutoSize = true;
+            this.metroCheckBox1.CustomBackground = false;
+            this.metroCheckBox1.FontSize = MetroFramework.MetroLinkSize.Tall;
+            this.metroCheckBox1.FontWeight = MetroFramework.MetroLinkWeight.Bold;
+            this.metroCheckBox1.Location = new System.Drawing.Point(825, 473);
+            this.metroCheckBox1.Name = "metroCheckBox1";
+            this.metroCheckBox1.Size = new System.Drawing.Size(170, 25);
+            this.metroCheckBox1.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroCheckBox1.StyleManager = this.metroStyleManager1;
+            this.metroCheckBox1.TabIndex = 72;
+            this.metroCheckBox1.Text = "Russia KeyBoard";
+            this.metroCheckBox1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroCheckBox1.UseStyleColors = false;
+            this.metroCheckBox1.UseVisualStyleBackColor = true;
             // 
-            // metroCheckBox5
+            // metroButton43
             // 
-            this.metroCheckBox5.AutoSize = true;
-            this.metroCheckBox5.CustomBackground = false;
-            this.metroCheckBox5.FontSize = MetroFramework.MetroLinkSize.Tall;
-            this.metroCheckBox5.FontWeight = MetroFramework.MetroLinkWeight.Regular;
-            this.metroCheckBox5.Location = new System.Drawing.Point(56, 228);
-            this.metroCheckBox5.Name = "metroCheckBox5";
-            this.metroCheckBox5.Size = new System.Drawing.Size(111, 25);
-            this.metroCheckBox5.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroCheckBox5.StyleManager = null;
-            this.metroCheckBox5.TabIndex = 7;
-            this.metroCheckBox5.Text = "Key sound";
-            this.metroCheckBox5.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroCheckBox5.UseStyleColors = false;
-            this.metroCheckBox5.UseVisualStyleBackColor = true;
-            this.metroCheckBox5.CheckedChanged += new System.EventHandler(this.metroCheckBox5_CheckedChanged);
+            this.metroButton43.Font = new System.Drawing.Font("Showcard Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.metroButton43.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.metroButton43.Highlight = false;
+            this.metroButton43.Location = new System.Drawing.Point(260, 447);
+            this.metroButton43.Name = "metroButton43";
+            this.metroButton43.Size = new System.Drawing.Size(483, 34);
+            this.metroButton43.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroButton43.StyleManager = this.metroStyleManager1;
+            this.metroButton43.TabIndex = 71;
+            this.metroButton43.Text = "Space";
+            this.metroButton43.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroButton43.Click += new System.EventHandler(this.metroButton43_Click);
             // 
-            // metroTextBox11
+            // RB30
             // 
-            this.metroTextBox11.FontSize = MetroFramework.MetroTextBoxSize.Small;
-            this.metroTextBox11.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
-            this.metroTextBox11.Location = new System.Drawing.Point(56, 183);
-            this.metroTextBox11.Multiline = false;
-            this.metroTextBox11.Name = "metroTextBox11";
-            this.metroTextBox11.SelectedText = "";
-            this.metroTextBox11.Size = new System.Drawing.Size(270, 25);
-            this.metroTextBox11.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox11.StyleManager = this.metroStyleManager1;
-            this.metroTextBox11.TabIndex = 6;
-            this.metroTextBox11.Text = "(enter path to json file)";
-            this.metroTextBox11.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTextBox11.UseStyleColors = false;
-            this.metroTextBox11.Click += new System.EventHandler(this.metroTextBox11_DoubleClick);
-            this.metroTextBox11.DoubleClick += new System.EventHandler(this.metroTextBox11_DoubleClick);
-            this.metroTextBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.metroTextBox11_KeyPress);
+            this.RB30.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB30.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB30.Highlight = false;
+            this.RB30.Location = new System.Drawing.Point(578, 402);
+            this.RB30.Name = "RB30";
+            this.RB30.Size = new System.Drawing.Size(41, 39);
+            this.RB30.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB30.StyleManager = this.metroStyleManager1;
+            this.RB30.TabIndex = 69;
+            this.RB30.Text = "m";
+            this.RB30.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB30.Click += new System.EventHandler(this.KeyBoardAddword);
             // 
-            // metroLabel13
+            // RB29
             // 
-            this.metroLabel13.AutoSize = true;
-            this.metroLabel13.CustomBackground = false;
-            this.metroLabel13.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel13.FontWeight = MetroFramework.MetroLabelWeight.Light;
-            this.metroLabel13.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel13.Location = new System.Drawing.Point(56, 155);
-            this.metroLabel13.Name = "metroLabel13";
-            this.metroLabel13.Size = new System.Drawing.Size(197, 25);
-            this.metroLabel13.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroLabel13.StyleManager = this.metroStyleManager1;
-            this.metroLabel13.TabIndex = 5;
-            this.metroLabel13.Text = "Add words from json file";
-            this.metroLabel13.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroLabel13.UseStyleColors = false;
+            this.RB29.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB29.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB29.Highlight = false;
+            this.RB29.Location = new System.Drawing.Point(531, 402);
+            this.RB29.Name = "RB29";
+            this.RB29.Size = new System.Drawing.Size(41, 39);
+            this.RB29.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB29.StyleManager = this.metroStyleManager1;
+            this.RB29.TabIndex = 68;
+            this.RB29.Text = "n";
+            this.RB29.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB29.Click += new System.EventHandler(this.KeyBoardAddword);
             // 
-            // metroCheckBox4
+            // RB28
             // 
-            this.metroCheckBox4.AutoSize = true;
-            this.metroCheckBox4.CustomBackground = false;
-            this.metroCheckBox4.FontSize = MetroFramework.MetroLinkSize.Medium;
-            this.metroCheckBox4.FontWeight = MetroFramework.MetroLinkWeight.Regular;
-            this.metroCheckBox4.Location = new System.Drawing.Point(332, 65);
-            this.metroCheckBox4.Name = "metroCheckBox4";
-            this.metroCheckBox4.Size = new System.Drawing.Size(108, 19);
-            this.metroCheckBox4.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroCheckBox4.StyleManager = null;
-            this.metroCheckBox4.TabIndex = 4;
-            this.metroCheckBox4.Text = "Select Default";
-            this.metroCheckBox4.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroCheckBox4.UseStyleColors = false;
-            this.metroCheckBox4.UseVisualStyleBackColor = true;
-            this.metroCheckBox4.CheckedChanged += new System.EventHandler(this.metroCheckBox4_CheckedChanged);
+            this.RB28.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB28.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB28.Highlight = false;
+            this.RB28.Location = new System.Drawing.Point(484, 402);
+            this.RB28.Name = "RB28";
+            this.RB28.Size = new System.Drawing.Size(41, 39);
+            this.RB28.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB28.StyleManager = this.metroStyleManager1;
+            this.RB28.TabIndex = 67;
+            this.RB28.Text = "b";
+            this.RB28.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB28.Click += new System.EventHandler(this.KeyBoardAddword);
             // 
-            // metroCheckBox3
+            // RB27
             // 
-            this.metroCheckBox3.AutoSize = true;
-            this.metroCheckBox3.CustomBackground = false;
-            this.metroCheckBox3.FontSize = MetroFramework.MetroLinkSize.Tall;
-            this.metroCheckBox3.FontWeight = MetroFramework.MetroLinkWeight.Regular;
-            this.metroCheckBox3.Location = new System.Drawing.Point(56, 106);
-            this.metroCheckBox3.Name = "metroCheckBox3";
-            this.metroCheckBox3.Size = new System.Drawing.Size(129, 25);
-            this.metroCheckBox3.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroCheckBox3.StyleManager = null;
-            this.metroCheckBox3.TabIndex = 3;
-            this.metroCheckBox3.Text = "White theme";
-            this.metroCheckBox3.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroCheckBox3.UseStyleColors = false;
-            this.metroCheckBox3.UseVisualStyleBackColor = true;
-            this.metroCheckBox3.CheckedChanged += new System.EventHandler(this.metroCheckBox3_CheckedChanged);
+            this.RB27.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB27.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB27.Highlight = false;
+            this.RB27.Location = new System.Drawing.Point(437, 402);
+            this.RB27.Name = "RB27";
+            this.RB27.Size = new System.Drawing.Size(41, 39);
+            this.RB27.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB27.StyleManager = this.metroStyleManager1;
+            this.RB27.TabIndex = 66;
+            this.RB27.Text = "v";
+            this.RB27.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB27.Click += new System.EventHandler(this.KeyBoardAddword);
             // 
-            // metroTextBox10
+            // RB26
             // 
-            this.metroTextBox10.FontSize = MetroFramework.MetroTextBoxSize.Small;
-            this.metroTextBox10.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
-            this.metroTextBox10.Location = new System.Drawing.Point(56, 59);
-            this.metroTextBox10.Multiline = false;
-            this.metroTextBox10.Name = "metroTextBox10";
-            this.metroTextBox10.SelectedText = "";
-            this.metroTextBox10.Size = new System.Drawing.Size(270, 25);
-            this.metroTextBox10.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox10.StyleManager = this.metroStyleManager1;
-            this.metroTextBox10.TabIndex = 2;
-            this.metroTextBox10.Text = "Default";
-            this.metroTextBox10.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTextBox10.UseStyleColors = false;
-            this.metroTextBox10.Click += new System.EventHandler(this.metroTextBox10_DoubleClick);
-            this.metroTextBox10.DoubleClick += new System.EventHandler(this.metroTextBox10_DoubleClick);
-            this.metroTextBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.metroTextBox10_KeyPress);
+            this.RB26.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB26.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB26.Highlight = false;
+            this.RB26.Location = new System.Drawing.Point(390, 402);
+            this.RB26.Name = "RB26";
+            this.RB26.Size = new System.Drawing.Size(41, 39);
+            this.RB26.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB26.StyleManager = this.metroStyleManager1;
+            this.RB26.TabIndex = 65;
+            this.RB26.Text = "c";
+            this.RB26.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB26.Click += new System.EventHandler(this.KeyBoardAddword);
             // 
-            // metroLabel12
+            // RB25
             // 
-            this.metroLabel12.AutoSize = true;
-            this.metroLabel12.CustomBackground = false;
-            this.metroLabel12.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel12.FontWeight = MetroFramework.MetroLabelWeight.Light;
-            this.metroLabel12.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel12.Location = new System.Drawing.Point(56, 31);
-            this.metroLabel12.Name = "metroLabel12";
-            this.metroLabel12.Size = new System.Drawing.Size(159, 25);
-            this.metroLabel12.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroLabel12.StyleManager = this.metroStyleManager1;
-            this.metroLabel12.TabIndex = 1;
-            this.metroLabel12.Text = "Background image:";
-            this.metroLabel12.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroLabel12.UseStyleColors = false;
+            this.RB25.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB25.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB25.Highlight = false;
+            this.RB25.Location = new System.Drawing.Point(343, 402);
+            this.RB25.Name = "RB25";
+            this.RB25.Size = new System.Drawing.Size(41, 39);
+            this.RB25.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB25.StyleManager = this.metroStyleManager1;
+            this.RB25.TabIndex = 64;
+            this.RB25.Text = "x";
+            this.RB25.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB25.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB24
+            // 
+            this.RB24.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB24.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB24.Highlight = false;
+            this.RB24.Location = new System.Drawing.Point(296, 402);
+            this.RB24.Name = "RB24";
+            this.RB24.Size = new System.Drawing.Size(41, 39);
+            this.RB24.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB24.StyleManager = this.metroStyleManager1;
+            this.RB24.TabIndex = 63;
+            this.RB24.Text = "z";
+            this.RB24.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB24.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB23
+            // 
+            this.RB23.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB23.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB23.Highlight = false;
+            this.RB23.Location = new System.Drawing.Point(672, 359);
+            this.RB23.Name = "RB23";
+            this.RB23.Size = new System.Drawing.Size(41, 39);
+            this.RB23.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB23.StyleManager = this.metroStyleManager1;
+            this.RB23.TabIndex = 62;
+            this.RB23.Text = "ä";
+            this.RB23.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB23.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB22
+            // 
+            this.RB22.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB22.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB22.Highlight = false;
+            this.RB22.Location = new System.Drawing.Point(625, 359);
+            this.RB22.Name = "RB22";
+            this.RB22.Size = new System.Drawing.Size(41, 39);
+            this.RB22.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB22.StyleManager = this.metroStyleManager1;
+            this.RB22.TabIndex = 61;
+            this.RB22.Text = "ö";
+            this.RB22.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB22.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB21
+            // 
+            this.RB21.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB21.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB21.Highlight = false;
+            this.RB21.Location = new System.Drawing.Point(578, 359);
+            this.RB21.Name = "RB21";
+            this.RB21.Size = new System.Drawing.Size(41, 39);
+            this.RB21.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB21.StyleManager = this.metroStyleManager1;
+            this.RB21.TabIndex = 60;
+            this.RB21.Text = "l";
+            this.RB21.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB21.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB20
+            // 
+            this.RB20.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB20.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB20.Highlight = false;
+            this.RB20.Location = new System.Drawing.Point(531, 359);
+            this.RB20.Name = "RB20";
+            this.RB20.Size = new System.Drawing.Size(41, 39);
+            this.RB20.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB20.StyleManager = this.metroStyleManager1;
+            this.RB20.TabIndex = 59;
+            this.RB20.Text = "k";
+            this.RB20.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB20.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB19
+            // 
+            this.RB19.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB19.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB19.Highlight = false;
+            this.RB19.Location = new System.Drawing.Point(484, 359);
+            this.RB19.Name = "RB19";
+            this.RB19.Size = new System.Drawing.Size(41, 39);
+            this.RB19.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB19.StyleManager = this.metroStyleManager1;
+            this.RB19.TabIndex = 58;
+            this.RB19.Text = "j";
+            this.RB19.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB19.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB18
+            // 
+            this.RB18.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB18.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB18.Highlight = false;
+            this.RB18.Location = new System.Drawing.Point(437, 359);
+            this.RB18.Name = "RB18";
+            this.RB18.Size = new System.Drawing.Size(41, 39);
+            this.RB18.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB18.StyleManager = this.metroStyleManager1;
+            this.RB18.TabIndex = 57;
+            this.RB18.Text = "h";
+            this.RB18.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB18.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB17
+            // 
+            this.RB17.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB17.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB17.Highlight = false;
+            this.RB17.Location = new System.Drawing.Point(390, 359);
+            this.RB17.Name = "RB17";
+            this.RB17.Size = new System.Drawing.Size(41, 39);
+            this.RB17.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB17.StyleManager = this.metroStyleManager1;
+            this.RB17.TabIndex = 56;
+            this.RB17.Text = "g";
+            this.RB17.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB17.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB16
+            // 
+            this.RB16.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB16.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB16.Highlight = false;
+            this.RB16.Location = new System.Drawing.Point(343, 359);
+            this.RB16.Name = "RB16";
+            this.RB16.Size = new System.Drawing.Size(41, 39);
+            this.RB16.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB16.StyleManager = this.metroStyleManager1;
+            this.RB16.TabIndex = 55;
+            this.RB16.Text = "f";
+            this.RB16.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB16.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB15
+            // 
+            this.RB15.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB15.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB15.Highlight = false;
+            this.RB15.Location = new System.Drawing.Point(296, 359);
+            this.RB15.Name = "RB15";
+            this.RB15.Size = new System.Drawing.Size(41, 39);
+            this.RB15.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB15.StyleManager = this.metroStyleManager1;
+            this.RB15.TabIndex = 54;
+            this.RB15.Text = "d";
+            this.RB15.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB15.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB14
+            // 
+            this.RB14.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB14.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB14.Highlight = false;
+            this.RB14.Location = new System.Drawing.Point(249, 359);
+            this.RB14.Name = "RB14";
+            this.RB14.Size = new System.Drawing.Size(41, 39);
+            this.RB14.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB14.StyleManager = this.metroStyleManager1;
+            this.RB14.TabIndex = 53;
+            this.RB14.Text = "s";
+            this.RB14.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB14.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB13
+            // 
+            this.RB13.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB13.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB13.Highlight = false;
+            this.RB13.Location = new System.Drawing.Point(202, 359);
+            this.RB13.Name = "RB13";
+            this.RB13.Size = new System.Drawing.Size(41, 39);
+            this.RB13.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB13.StyleManager = this.metroStyleManager1;
+            this.RB13.TabIndex = 52;
+            this.RB13.Text = "a";
+            this.RB13.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB13.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB12
+            // 
+            this.RB12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB12.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB12.Highlight = false;
+            this.RB12.Location = new System.Drawing.Point(702, 314);
+            this.RB12.Name = "RB12";
+            this.RB12.Size = new System.Drawing.Size(41, 39);
+            this.RB12.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB12.StyleManager = this.metroStyleManager1;
+            this.RB12.TabIndex = 50;
+            this.RB12.Text = "õ";
+            this.RB12.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB12.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB11
+            // 
+            this.RB11.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB11.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB11.Highlight = false;
+            this.RB11.Location = new System.Drawing.Point(655, 314);
+            this.RB11.Name = "RB11";
+            this.RB11.Size = new System.Drawing.Size(41, 39);
+            this.RB11.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB11.StyleManager = this.metroStyleManager1;
+            this.RB11.TabIndex = 49;
+            this.RB11.Text = "ü";
+            this.RB11.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB11.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB10
+            // 
+            this.RB10.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB10.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB10.Highlight = false;
+            this.RB10.Location = new System.Drawing.Point(608, 314);
+            this.RB10.Name = "RB10";
+            this.RB10.Size = new System.Drawing.Size(41, 39);
+            this.RB10.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB10.StyleManager = this.metroStyleManager1;
+            this.RB10.TabIndex = 48;
+            this.RB10.Text = "p";
+            this.RB10.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB10.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB9
+            // 
+            this.RB9.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB9.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB9.Highlight = false;
+            this.RB9.Location = new System.Drawing.Point(561, 314);
+            this.RB9.Name = "RB9";
+            this.RB9.Size = new System.Drawing.Size(41, 39);
+            this.RB9.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB9.StyleManager = this.metroStyleManager1;
+            this.RB9.TabIndex = 47;
+            this.RB9.Text = "o";
+            this.RB9.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB9.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB8
+            // 
+            this.RB8.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB8.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB8.Highlight = false;
+            this.RB8.Location = new System.Drawing.Point(514, 314);
+            this.RB8.Name = "RB8";
+            this.RB8.Size = new System.Drawing.Size(41, 39);
+            this.RB8.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB8.StyleManager = this.metroStyleManager1;
+            this.RB8.TabIndex = 46;
+            this.RB8.Text = "i";
+            this.RB8.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB8.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB7
+            // 
+            this.RB7.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB7.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB7.Highlight = false;
+            this.RB7.Location = new System.Drawing.Point(467, 314);
+            this.RB7.Name = "RB7";
+            this.RB7.Size = new System.Drawing.Size(41, 39);
+            this.RB7.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB7.StyleManager = this.metroStyleManager1;
+            this.RB7.TabIndex = 45;
+            this.RB7.Text = "u";
+            this.RB7.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB7.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB6
+            // 
+            this.RB6.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB6.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB6.Highlight = false;
+            this.RB6.Location = new System.Drawing.Point(420, 314);
+            this.RB6.Name = "RB6";
+            this.RB6.Size = new System.Drawing.Size(41, 39);
+            this.RB6.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB6.StyleManager = this.metroStyleManager1;
+            this.RB6.TabIndex = 44;
+            this.RB6.Text = "y";
+            this.RB6.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB6.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB5
+            // 
+            this.RB5.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB5.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB5.Highlight = false;
+            this.RB5.Location = new System.Drawing.Point(373, 314);
+            this.RB5.Name = "RB5";
+            this.RB5.Size = new System.Drawing.Size(41, 39);
+            this.RB5.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB5.StyleManager = this.metroStyleManager1;
+            this.RB5.TabIndex = 43;
+            this.RB5.Text = "t";
+            this.RB5.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB5.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB4
+            // 
+            this.RB4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB4.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB4.Highlight = false;
+            this.RB4.Location = new System.Drawing.Point(326, 314);
+            this.RB4.Name = "RB4";
+            this.RB4.Size = new System.Drawing.Size(41, 39);
+            this.RB4.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB4.StyleManager = this.metroStyleManager1;
+            this.RB4.TabIndex = 42;
+            this.RB4.Text = "r";
+            this.RB4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB4.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB3
+            // 
+            this.RB3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB3.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB3.Highlight = false;
+            this.RB3.Location = new System.Drawing.Point(279, 314);
+            this.RB3.Name = "RB3";
+            this.RB3.Size = new System.Drawing.Size(41, 39);
+            this.RB3.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB3.StyleManager = this.metroStyleManager1;
+            this.RB3.TabIndex = 41;
+            this.RB3.Text = "e";
+            this.RB3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB3.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB2
+            // 
+            this.RB2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB2.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB2.Highlight = false;
+            this.RB2.Location = new System.Drawing.Point(232, 314);
+            this.RB2.Name = "RB2";
+            this.RB2.Size = new System.Drawing.Size(41, 39);
+            this.RB2.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB2.StyleManager = this.metroStyleManager1;
+            this.RB2.TabIndex = 40;
+            this.RB2.Text = "w";
+            this.RB2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB2.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // RB1
+            // 
+            this.RB1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RB1.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.RB1.Highlight = false;
+            this.RB1.Location = new System.Drawing.Point(185, 314);
+            this.RB1.Name = "RB1";
+            this.RB1.Size = new System.Drawing.Size(41, 39);
+            this.RB1.Style = MetroFramework.MetroColorStyle.Blue;
+            this.RB1.StyleManager = this.metroStyleManager1;
+            this.RB1.TabIndex = 39;
+            this.RB1.Text = "q";
+            this.RB1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.RB1.Click += new System.EventHandler(this.KeyBoardAddword);
+            // 
+            // metroTextBox3
+            // 
+            this.metroTextBox3.FontSize = MetroFramework.MetroTextBoxSize.Small;
+            this.metroTextBox3.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
+            this.metroTextBox3.Location = new System.Drawing.Point(354, 176);
+            this.metroTextBox3.Multiline = false;
+            this.metroTextBox3.Name = "metroTextBox3";
+            this.metroTextBox3.SelectedText = "";
+            this.metroTextBox3.Size = new System.Drawing.Size(247, 27);
+            this.metroTextBox3.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox3.StyleManager = this.metroStyleManager1;
+            this.metroTextBox3.TabIndex = 8;
+            this.metroTextBox3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTextBox3.UseStyleColors = false;
+            // 
+            // metroTextBox2
+            // 
+            this.metroTextBox2.FontSize = MetroFramework.MetroTextBoxSize.Small;
+            this.metroTextBox2.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
+            this.metroTextBox2.Location = new System.Drawing.Point(354, 120);
+            this.metroTextBox2.Multiline = false;
+            this.metroTextBox2.Name = "metroTextBox2";
+            this.metroTextBox2.SelectedText = "";
+            this.metroTextBox2.Size = new System.Drawing.Size(247, 25);
+            this.metroTextBox2.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox2.StyleManager = this.metroStyleManager1;
+            this.metroTextBox2.TabIndex = 7;
+            this.metroTextBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTextBox2.UseStyleColors = false;
+            // 
+            // metroButton38
+            // 
+            this.metroButton38.Highlight = false;
+            this.metroButton38.Location = new System.Drawing.Point(503, 223);
+            this.metroButton38.Name = "metroButton38";
+            this.metroButton38.Size = new System.Drawing.Size(98, 43);
+            this.metroButton38.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroButton38.StyleManager = this.metroStyleManager1;
+            this.metroButton38.TabIndex = 4;
+            this.metroButton38.Text = "Add";
+            this.metroButton38.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroButton38.Click += new System.EventHandler(this.metroButton38_Click);
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.CustomBackground = false;
+            this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel2.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel2.Location = new System.Drawing.Point(355, 148);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(97, 25);
+            this.metroLabel2.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel2.StyleManager = this.metroStyleManager1;
+            this.metroLabel2.TabIndex = 3;
+            this.metroLabel2.Text = "Translation:";
+            this.metroLabel2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel2.UseStyleColors = false;
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.CustomBackground = false;
+            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel1.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel1.Location = new System.Drawing.Point(354, 92);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(57, 25);
+            this.metroLabel1.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel1.StyleManager = this.metroStyleManager1;
+            this.metroLabel1.TabIndex = 1;
+            this.metroLabel1.Text = "Word:";
+            this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel1.UseStyleColors = false;
             // 
             // tabPage1
             // 
@@ -1234,662 +1676,6 @@
             this.metroButton1.Text = "q";
             this.metroButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton1.Click += new System.EventHandler(this.KeyboardClick);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackgroundImage = global::Eesti_Keel.Properties.Resources._1161810;
-            this.tabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage2.Controls.Add(this.metroButton40);
-            this.tabPage2.Controls.Add(this.RB32);
-            this.tabPage2.Controls.Add(this.RB31);
-            this.tabPage2.Controls.Add(this.metroCheckBox1);
-            this.tabPage2.Controls.Add(this.metroButton43);
-            this.tabPage2.Controls.Add(this.RB30);
-            this.tabPage2.Controls.Add(this.RB29);
-            this.tabPage2.Controls.Add(this.RB28);
-            this.tabPage2.Controls.Add(this.RB27);
-            this.tabPage2.Controls.Add(this.RB26);
-            this.tabPage2.Controls.Add(this.RB25);
-            this.tabPage2.Controls.Add(this.RB24);
-            this.tabPage2.Controls.Add(this.RB23);
-            this.tabPage2.Controls.Add(this.RB22);
-            this.tabPage2.Controls.Add(this.RB21);
-            this.tabPage2.Controls.Add(this.RB20);
-            this.tabPage2.Controls.Add(this.RB19);
-            this.tabPage2.Controls.Add(this.RB18);
-            this.tabPage2.Controls.Add(this.RB17);
-            this.tabPage2.Controls.Add(this.RB16);
-            this.tabPage2.Controls.Add(this.RB15);
-            this.tabPage2.Controls.Add(this.RB14);
-            this.tabPage2.Controls.Add(this.RB13);
-            this.tabPage2.Controls.Add(this.RB12);
-            this.tabPage2.Controls.Add(this.RB11);
-            this.tabPage2.Controls.Add(this.RB10);
-            this.tabPage2.Controls.Add(this.RB9);
-            this.tabPage2.Controls.Add(this.RB8);
-            this.tabPage2.Controls.Add(this.RB7);
-            this.tabPage2.Controls.Add(this.RB6);
-            this.tabPage2.Controls.Add(this.RB5);
-            this.tabPage2.Controls.Add(this.RB4);
-            this.tabPage2.Controls.Add(this.RB3);
-            this.tabPage2.Controls.Add(this.RB2);
-            this.tabPage2.Controls.Add(this.RB1);
-            this.tabPage2.Controls.Add(this.metroTextBox3);
-            this.tabPage2.Controls.Add(this.metroTextBox2);
-            this.tabPage2.Controls.Add(this.metroButton38);
-            this.tabPage2.Controls.Add(this.metroLabel2);
-            this.tabPage2.Controls.Add(this.metroLabel1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 35);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(998, 503);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Add Word";
-            // 
-            // metroButton40
-            // 
-            this.metroButton40.Font = new System.Drawing.Font("Showcard Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.metroButton40.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.metroButton40.Highlight = false;
-            this.metroButton40.Location = new System.Drawing.Point(749, 314);
-            this.metroButton40.Name = "metroButton40";
-            this.metroButton40.Size = new System.Drawing.Size(78, 39);
-            this.metroButton40.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroButton40.StyleManager = this.metroStyleManager1;
-            this.metroButton40.TabIndex = 75;
-            this.metroButton40.Text = "backspace";
-            this.metroButton40.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroButton40.Click += new System.EventHandler(this.metroButton40_Click);
-            // 
-            // RB32
-            // 
-            this.RB32.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB32.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB32.Highlight = false;
-            this.RB32.Location = new System.Drawing.Point(672, 402);
-            this.RB32.Name = "RB32";
-            this.RB32.Size = new System.Drawing.Size(41, 39);
-            this.RB32.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB32.StyleManager = this.metroStyleManager1;
-            this.RB32.TabIndex = 74;
-            this.RB32.Text = "ю";
-            this.RB32.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB32.Visible = false;
-            this.RB32.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB31
-            // 
-            this.RB31.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB31.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB31.Highlight = false;
-            this.RB31.Location = new System.Drawing.Point(625, 402);
-            this.RB31.Name = "RB31";
-            this.RB31.Size = new System.Drawing.Size(41, 39);
-            this.RB31.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB31.StyleManager = this.metroStyleManager1;
-            this.RB31.TabIndex = 73;
-            this.RB31.Text = "б";
-            this.RB31.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB31.Visible = false;
-            this.RB31.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // metroCheckBox1
-            // 
-            this.metroCheckBox1.AutoSize = true;
-            this.metroCheckBox1.CustomBackground = false;
-            this.metroCheckBox1.FontSize = MetroFramework.MetroLinkSize.Tall;
-            this.metroCheckBox1.FontWeight = MetroFramework.MetroLinkWeight.Bold;
-            this.metroCheckBox1.Location = new System.Drawing.Point(825, 473);
-            this.metroCheckBox1.Name = "metroCheckBox1";
-            this.metroCheckBox1.Size = new System.Drawing.Size(170, 25);
-            this.metroCheckBox1.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroCheckBox1.StyleManager = this.metroStyleManager1;
-            this.metroCheckBox1.TabIndex = 72;
-            this.metroCheckBox1.Text = "Russia KeyBoard";
-            this.metroCheckBox1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroCheckBox1.UseStyleColors = false;
-            this.metroCheckBox1.UseVisualStyleBackColor = true;
-            // 
-            // metroButton43
-            // 
-            this.metroButton43.Font = new System.Drawing.Font("Showcard Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.metroButton43.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.metroButton43.Highlight = false;
-            this.metroButton43.Location = new System.Drawing.Point(260, 447);
-            this.metroButton43.Name = "metroButton43";
-            this.metroButton43.Size = new System.Drawing.Size(483, 34);
-            this.metroButton43.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroButton43.StyleManager = this.metroStyleManager1;
-            this.metroButton43.TabIndex = 71;
-            this.metroButton43.Text = "Space";
-            this.metroButton43.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroButton43.Click += new System.EventHandler(this.metroButton43_Click);
-            // 
-            // RB30
-            // 
-            this.RB30.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB30.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB30.Highlight = false;
-            this.RB30.Location = new System.Drawing.Point(578, 402);
-            this.RB30.Name = "RB30";
-            this.RB30.Size = new System.Drawing.Size(41, 39);
-            this.RB30.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB30.StyleManager = this.metroStyleManager1;
-            this.RB30.TabIndex = 69;
-            this.RB30.Text = "m";
-            this.RB30.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB30.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB29
-            // 
-            this.RB29.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB29.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB29.Highlight = false;
-            this.RB29.Location = new System.Drawing.Point(531, 402);
-            this.RB29.Name = "RB29";
-            this.RB29.Size = new System.Drawing.Size(41, 39);
-            this.RB29.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB29.StyleManager = this.metroStyleManager1;
-            this.RB29.TabIndex = 68;
-            this.RB29.Text = "n";
-            this.RB29.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB29.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB28
-            // 
-            this.RB28.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB28.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB28.Highlight = false;
-            this.RB28.Location = new System.Drawing.Point(484, 402);
-            this.RB28.Name = "RB28";
-            this.RB28.Size = new System.Drawing.Size(41, 39);
-            this.RB28.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB28.StyleManager = this.metroStyleManager1;
-            this.RB28.TabIndex = 67;
-            this.RB28.Text = "b";
-            this.RB28.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB28.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB27
-            // 
-            this.RB27.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB27.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB27.Highlight = false;
-            this.RB27.Location = new System.Drawing.Point(437, 402);
-            this.RB27.Name = "RB27";
-            this.RB27.Size = new System.Drawing.Size(41, 39);
-            this.RB27.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB27.StyleManager = this.metroStyleManager1;
-            this.RB27.TabIndex = 66;
-            this.RB27.Text = "v";
-            this.RB27.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB27.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB26
-            // 
-            this.RB26.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB26.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB26.Highlight = false;
-            this.RB26.Location = new System.Drawing.Point(390, 402);
-            this.RB26.Name = "RB26";
-            this.RB26.Size = new System.Drawing.Size(41, 39);
-            this.RB26.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB26.StyleManager = this.metroStyleManager1;
-            this.RB26.TabIndex = 65;
-            this.RB26.Text = "c";
-            this.RB26.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB26.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB25
-            // 
-            this.RB25.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB25.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB25.Highlight = false;
-            this.RB25.Location = new System.Drawing.Point(343, 402);
-            this.RB25.Name = "RB25";
-            this.RB25.Size = new System.Drawing.Size(41, 39);
-            this.RB25.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB25.StyleManager = this.metroStyleManager1;
-            this.RB25.TabIndex = 64;
-            this.RB25.Text = "x";
-            this.RB25.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB25.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB24
-            // 
-            this.RB24.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB24.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB24.Highlight = false;
-            this.RB24.Location = new System.Drawing.Point(296, 402);
-            this.RB24.Name = "RB24";
-            this.RB24.Size = new System.Drawing.Size(41, 39);
-            this.RB24.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB24.StyleManager = this.metroStyleManager1;
-            this.RB24.TabIndex = 63;
-            this.RB24.Text = "z";
-            this.RB24.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB24.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB23
-            // 
-            this.RB23.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB23.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB23.Highlight = false;
-            this.RB23.Location = new System.Drawing.Point(672, 359);
-            this.RB23.Name = "RB23";
-            this.RB23.Size = new System.Drawing.Size(41, 39);
-            this.RB23.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB23.StyleManager = this.metroStyleManager1;
-            this.RB23.TabIndex = 62;
-            this.RB23.Text = "ä";
-            this.RB23.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB23.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB22
-            // 
-            this.RB22.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB22.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB22.Highlight = false;
-            this.RB22.Location = new System.Drawing.Point(625, 359);
-            this.RB22.Name = "RB22";
-            this.RB22.Size = new System.Drawing.Size(41, 39);
-            this.RB22.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB22.StyleManager = this.metroStyleManager1;
-            this.RB22.TabIndex = 61;
-            this.RB22.Text = "ö";
-            this.RB22.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB22.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB21
-            // 
-            this.RB21.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB21.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB21.Highlight = false;
-            this.RB21.Location = new System.Drawing.Point(578, 359);
-            this.RB21.Name = "RB21";
-            this.RB21.Size = new System.Drawing.Size(41, 39);
-            this.RB21.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB21.StyleManager = this.metroStyleManager1;
-            this.RB21.TabIndex = 60;
-            this.RB21.Text = "l";
-            this.RB21.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB21.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB20
-            // 
-            this.RB20.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB20.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB20.Highlight = false;
-            this.RB20.Location = new System.Drawing.Point(531, 359);
-            this.RB20.Name = "RB20";
-            this.RB20.Size = new System.Drawing.Size(41, 39);
-            this.RB20.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB20.StyleManager = this.metroStyleManager1;
-            this.RB20.TabIndex = 59;
-            this.RB20.Text = "k";
-            this.RB20.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB20.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB19
-            // 
-            this.RB19.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB19.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB19.Highlight = false;
-            this.RB19.Location = new System.Drawing.Point(484, 359);
-            this.RB19.Name = "RB19";
-            this.RB19.Size = new System.Drawing.Size(41, 39);
-            this.RB19.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB19.StyleManager = this.metroStyleManager1;
-            this.RB19.TabIndex = 58;
-            this.RB19.Text = "j";
-            this.RB19.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB19.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB18
-            // 
-            this.RB18.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB18.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB18.Highlight = false;
-            this.RB18.Location = new System.Drawing.Point(437, 359);
-            this.RB18.Name = "RB18";
-            this.RB18.Size = new System.Drawing.Size(41, 39);
-            this.RB18.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB18.StyleManager = this.metroStyleManager1;
-            this.RB18.TabIndex = 57;
-            this.RB18.Text = "h";
-            this.RB18.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB18.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB17
-            // 
-            this.RB17.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB17.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB17.Highlight = false;
-            this.RB17.Location = new System.Drawing.Point(390, 359);
-            this.RB17.Name = "RB17";
-            this.RB17.Size = new System.Drawing.Size(41, 39);
-            this.RB17.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB17.StyleManager = this.metroStyleManager1;
-            this.RB17.TabIndex = 56;
-            this.RB17.Text = "g";
-            this.RB17.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB17.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB16
-            // 
-            this.RB16.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB16.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB16.Highlight = false;
-            this.RB16.Location = new System.Drawing.Point(343, 359);
-            this.RB16.Name = "RB16";
-            this.RB16.Size = new System.Drawing.Size(41, 39);
-            this.RB16.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB16.StyleManager = this.metroStyleManager1;
-            this.RB16.TabIndex = 55;
-            this.RB16.Text = "f";
-            this.RB16.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB16.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB15
-            // 
-            this.RB15.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB15.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB15.Highlight = false;
-            this.RB15.Location = new System.Drawing.Point(296, 359);
-            this.RB15.Name = "RB15";
-            this.RB15.Size = new System.Drawing.Size(41, 39);
-            this.RB15.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB15.StyleManager = this.metroStyleManager1;
-            this.RB15.TabIndex = 54;
-            this.RB15.Text = "d";
-            this.RB15.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB15.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB14
-            // 
-            this.RB14.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB14.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB14.Highlight = false;
-            this.RB14.Location = new System.Drawing.Point(249, 359);
-            this.RB14.Name = "RB14";
-            this.RB14.Size = new System.Drawing.Size(41, 39);
-            this.RB14.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB14.StyleManager = this.metroStyleManager1;
-            this.RB14.TabIndex = 53;
-            this.RB14.Text = "s";
-            this.RB14.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB14.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB13
-            // 
-            this.RB13.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB13.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB13.Highlight = false;
-            this.RB13.Location = new System.Drawing.Point(202, 359);
-            this.RB13.Name = "RB13";
-            this.RB13.Size = new System.Drawing.Size(41, 39);
-            this.RB13.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB13.StyleManager = this.metroStyleManager1;
-            this.RB13.TabIndex = 52;
-            this.RB13.Text = "a";
-            this.RB13.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB13.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB12
-            // 
-            this.RB12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB12.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB12.Highlight = false;
-            this.RB12.Location = new System.Drawing.Point(702, 314);
-            this.RB12.Name = "RB12";
-            this.RB12.Size = new System.Drawing.Size(41, 39);
-            this.RB12.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB12.StyleManager = this.metroStyleManager1;
-            this.RB12.TabIndex = 50;
-            this.RB12.Text = "õ";
-            this.RB12.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB12.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB11
-            // 
-            this.RB11.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB11.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB11.Highlight = false;
-            this.RB11.Location = new System.Drawing.Point(655, 314);
-            this.RB11.Name = "RB11";
-            this.RB11.Size = new System.Drawing.Size(41, 39);
-            this.RB11.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB11.StyleManager = this.metroStyleManager1;
-            this.RB11.TabIndex = 49;
-            this.RB11.Text = "ü";
-            this.RB11.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB11.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB10
-            // 
-            this.RB10.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB10.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB10.Highlight = false;
-            this.RB10.Location = new System.Drawing.Point(608, 314);
-            this.RB10.Name = "RB10";
-            this.RB10.Size = new System.Drawing.Size(41, 39);
-            this.RB10.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB10.StyleManager = this.metroStyleManager1;
-            this.RB10.TabIndex = 48;
-            this.RB10.Text = "p";
-            this.RB10.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB10.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB9
-            // 
-            this.RB9.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB9.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB9.Highlight = false;
-            this.RB9.Location = new System.Drawing.Point(561, 314);
-            this.RB9.Name = "RB9";
-            this.RB9.Size = new System.Drawing.Size(41, 39);
-            this.RB9.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB9.StyleManager = this.metroStyleManager1;
-            this.RB9.TabIndex = 47;
-            this.RB9.Text = "o";
-            this.RB9.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB9.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB8
-            // 
-            this.RB8.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB8.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB8.Highlight = false;
-            this.RB8.Location = new System.Drawing.Point(514, 314);
-            this.RB8.Name = "RB8";
-            this.RB8.Size = new System.Drawing.Size(41, 39);
-            this.RB8.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB8.StyleManager = this.metroStyleManager1;
-            this.RB8.TabIndex = 46;
-            this.RB8.Text = "i";
-            this.RB8.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB8.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB7
-            // 
-            this.RB7.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB7.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB7.Highlight = false;
-            this.RB7.Location = new System.Drawing.Point(467, 314);
-            this.RB7.Name = "RB7";
-            this.RB7.Size = new System.Drawing.Size(41, 39);
-            this.RB7.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB7.StyleManager = this.metroStyleManager1;
-            this.RB7.TabIndex = 45;
-            this.RB7.Text = "u";
-            this.RB7.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB7.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB6
-            // 
-            this.RB6.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB6.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB6.Highlight = false;
-            this.RB6.Location = new System.Drawing.Point(420, 314);
-            this.RB6.Name = "RB6";
-            this.RB6.Size = new System.Drawing.Size(41, 39);
-            this.RB6.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB6.StyleManager = this.metroStyleManager1;
-            this.RB6.TabIndex = 44;
-            this.RB6.Text = "y";
-            this.RB6.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB6.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB5
-            // 
-            this.RB5.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB5.Highlight = false;
-            this.RB5.Location = new System.Drawing.Point(373, 314);
-            this.RB5.Name = "RB5";
-            this.RB5.Size = new System.Drawing.Size(41, 39);
-            this.RB5.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB5.StyleManager = this.metroStyleManager1;
-            this.RB5.TabIndex = 43;
-            this.RB5.Text = "t";
-            this.RB5.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB5.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB4
-            // 
-            this.RB4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB4.Highlight = false;
-            this.RB4.Location = new System.Drawing.Point(326, 314);
-            this.RB4.Name = "RB4";
-            this.RB4.Size = new System.Drawing.Size(41, 39);
-            this.RB4.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB4.StyleManager = this.metroStyleManager1;
-            this.RB4.TabIndex = 42;
-            this.RB4.Text = "r";
-            this.RB4.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB4.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB3
-            // 
-            this.RB3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB3.Highlight = false;
-            this.RB3.Location = new System.Drawing.Point(279, 314);
-            this.RB3.Name = "RB3";
-            this.RB3.Size = new System.Drawing.Size(41, 39);
-            this.RB3.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB3.StyleManager = this.metroStyleManager1;
-            this.RB3.TabIndex = 41;
-            this.RB3.Text = "e";
-            this.RB3.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB3.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB2
-            // 
-            this.RB2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB2.Highlight = false;
-            this.RB2.Location = new System.Drawing.Point(232, 314);
-            this.RB2.Name = "RB2";
-            this.RB2.Size = new System.Drawing.Size(41, 39);
-            this.RB2.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB2.StyleManager = this.metroStyleManager1;
-            this.RB2.TabIndex = 40;
-            this.RB2.Text = "w";
-            this.RB2.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB2.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // RB1
-            // 
-            this.RB1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RB1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.RB1.Highlight = false;
-            this.RB1.Location = new System.Drawing.Point(185, 314);
-            this.RB1.Name = "RB1";
-            this.RB1.Size = new System.Drawing.Size(41, 39);
-            this.RB1.Style = MetroFramework.MetroColorStyle.Blue;
-            this.RB1.StyleManager = this.metroStyleManager1;
-            this.RB1.TabIndex = 39;
-            this.RB1.Text = "q";
-            this.RB1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.RB1.Click += new System.EventHandler(this.KeyBoardAddword);
-            // 
-            // metroTextBox3
-            // 
-            this.metroTextBox3.FontSize = MetroFramework.MetroTextBoxSize.Small;
-            this.metroTextBox3.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
-            this.metroTextBox3.Location = new System.Drawing.Point(354, 176);
-            this.metroTextBox3.Multiline = false;
-            this.metroTextBox3.Name = "metroTextBox3";
-            this.metroTextBox3.SelectedText = "";
-            this.metroTextBox3.Size = new System.Drawing.Size(247, 27);
-            this.metroTextBox3.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox3.StyleManager = this.metroStyleManager1;
-            this.metroTextBox3.TabIndex = 8;
-            this.metroTextBox3.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTextBox3.UseStyleColors = false;
-            // 
-            // metroTextBox2
-            // 
-            this.metroTextBox2.FontSize = MetroFramework.MetroTextBoxSize.Small;
-            this.metroTextBox2.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
-            this.metroTextBox2.Location = new System.Drawing.Point(354, 120);
-            this.metroTextBox2.Multiline = false;
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.SelectedText = "";
-            this.metroTextBox2.Size = new System.Drawing.Size(247, 25);
-            this.metroTextBox2.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox2.StyleManager = this.metroStyleManager1;
-            this.metroTextBox2.TabIndex = 7;
-            this.metroTextBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTextBox2.UseStyleColors = false;
-            // 
-            // metroButton38
-            // 
-            this.metroButton38.Highlight = false;
-            this.metroButton38.Location = new System.Drawing.Point(503, 223);
-            this.metroButton38.Name = "metroButton38";
-            this.metroButton38.Size = new System.Drawing.Size(98, 43);
-            this.metroButton38.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroButton38.StyleManager = this.metroStyleManager1;
-            this.metroButton38.TabIndex = 4;
-            this.metroButton38.Text = "Add";
-            this.metroButton38.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroButton38.Click += new System.EventHandler(this.metroButton38_Click);
-            // 
-            // metroLabel2
-            // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.CustomBackground = false;
-            this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Light;
-            this.metroLabel2.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel2.Location = new System.Drawing.Point(355, 148);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(97, 25);
-            this.metroLabel2.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroLabel2.StyleManager = this.metroStyleManager1;
-            this.metroLabel2.TabIndex = 3;
-            this.metroLabel2.Text = "Translation:";
-            this.metroLabel2.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroLabel2.UseStyleColors = false;
-            // 
-            // metroLabel1
-            // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.CustomBackground = false;
-            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Light;
-            this.metroLabel1.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel1.Location = new System.Drawing.Point(354, 92);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(57, 25);
-            this.metroLabel1.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroLabel1.StyleManager = this.metroStyleManager1;
-            this.metroLabel1.TabIndex = 1;
-            this.metroLabel1.Text = "Word:";
-            this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroLabel1.UseStyleColors = false;
             // 
             // tabPage3
             // 
@@ -3309,6 +3095,220 @@
             this.metroButton108.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton108.Click += new System.EventHandler(this.ReiterationBut);
             // 
+            // tabPage6
+            // 
+            this.tabPage6.BackgroundImage = global::Eesti_Keel.Properties.Resources._1161810;
+            this.tabPage6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage6.Controls.Add(this.metroProgressSpinner1);
+            this.tabPage6.Controls.Add(this.metroLabel15);
+            this.tabPage6.Controls.Add(this.metroTextBox12);
+            this.tabPage6.Controls.Add(this.metroLabel14);
+            this.tabPage6.Controls.Add(this.metroCheckBox5);
+            this.tabPage6.Controls.Add(this.metroTextBox11);
+            this.tabPage6.Controls.Add(this.metroLabel13);
+            this.tabPage6.Controls.Add(this.metroCheckBox4);
+            this.tabPage6.Controls.Add(this.metroCheckBox3);
+            this.tabPage6.Controls.Add(this.metroTextBox10);
+            this.tabPage6.Controls.Add(this.metroLabel12);
+            this.tabPage6.Location = new System.Drawing.Point(4, 35);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(998, 503);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Settings";
+            // 
+            // metroProgressSpinner1
+            // 
+            this.metroProgressSpinner1.CustomBackground = false;
+            this.metroProgressSpinner1.Location = new System.Drawing.Point(494, 404);
+            this.metroProgressSpinner1.Maximum = 100;
+            this.metroProgressSpinner1.Name = "metroProgressSpinner1";
+            this.metroProgressSpinner1.Size = new System.Drawing.Size(51, 49);
+            this.metroProgressSpinner1.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroProgressSpinner1.StyleManager = null;
+            this.metroProgressSpinner1.TabIndex = 11;
+            this.metroProgressSpinner1.Text = "metroProgressSpinner1";
+            this.metroProgressSpinner1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroProgressSpinner1.Visible = false;
+            // 
+            // metroLabel15
+            // 
+            this.metroLabel15.AutoSize = true;
+            this.metroLabel15.CustomBackground = false;
+            this.metroLabel15.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel15.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel15.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel15.Location = new System.Drawing.Point(467, 456);
+            this.metroLabel15.Name = "metroLabel15";
+            this.metroLabel15.Size = new System.Drawing.Size(103, 25);
+            this.metroLabel15.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel15.StyleManager = this.metroStyleManager1;
+            this.metroLabel15.TabIndex = 10;
+            this.metroLabel15.Text = "Wait please!";
+            this.metroLabel15.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel15.UseStyleColors = false;
+            this.metroLabel15.Visible = false;
+            // 
+            // metroTextBox12
+            // 
+            this.metroTextBox12.FontSize = MetroFramework.MetroTextBoxSize.Small;
+            this.metroTextBox12.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
+            this.metroTextBox12.Location = new System.Drawing.Point(56, 302);
+            this.metroTextBox12.Multiline = false;
+            this.metroTextBox12.Name = "metroTextBox12";
+            this.metroTextBox12.SelectedText = "";
+            this.metroTextBox12.Size = new System.Drawing.Size(270, 25);
+            this.metroTextBox12.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox12.StyleManager = this.metroStyleManager1;
+            this.metroTextBox12.TabIndex = 9;
+            this.metroTextBox12.Text = "(enter path to file)";
+            this.metroTextBox12.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTextBox12.UseStyleColors = false;
+            this.metroTextBox12.Click += new System.EventHandler(this.AddWordsFromFile);
+            this.metroTextBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.metroTextBox12_KeyPress);
+            // 
+            // metroLabel14
+            // 
+            this.metroLabel14.AutoSize = true;
+            this.metroLabel14.CustomBackground = false;
+            this.metroLabel14.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel14.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel14.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel14.Location = new System.Drawing.Point(56, 274);
+            this.metroLabel14.Name = "metroLabel14";
+            this.metroLabel14.Size = new System.Drawing.Size(400, 25);
+            this.metroLabel14.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel14.StyleManager = null;
+            this.metroLabel14.TabIndex = 8;
+            this.metroLabel14.Text = "Fill dictionary with words from file (.docx , .pdf , .txt)";
+            this.metroLabel14.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel14.UseStyleColors = false;
+            // 
+            // metroCheckBox5
+            // 
+            this.metroCheckBox5.AutoSize = true;
+            this.metroCheckBox5.CustomBackground = false;
+            this.metroCheckBox5.FontSize = MetroFramework.MetroLinkSize.Tall;
+            this.metroCheckBox5.FontWeight = MetroFramework.MetroLinkWeight.Regular;
+            this.metroCheckBox5.Location = new System.Drawing.Point(56, 228);
+            this.metroCheckBox5.Name = "metroCheckBox5";
+            this.metroCheckBox5.Size = new System.Drawing.Size(111, 25);
+            this.metroCheckBox5.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroCheckBox5.StyleManager = null;
+            this.metroCheckBox5.TabIndex = 7;
+            this.metroCheckBox5.Text = "Key sound";
+            this.metroCheckBox5.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroCheckBox5.UseStyleColors = false;
+            this.metroCheckBox5.UseVisualStyleBackColor = true;
+            this.metroCheckBox5.CheckedChanged += new System.EventHandler(this.metroCheckBox5_CheckedChanged);
+            // 
+            // metroTextBox11
+            // 
+            this.metroTextBox11.FontSize = MetroFramework.MetroTextBoxSize.Small;
+            this.metroTextBox11.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
+            this.metroTextBox11.Location = new System.Drawing.Point(56, 183);
+            this.metroTextBox11.Multiline = false;
+            this.metroTextBox11.Name = "metroTextBox11";
+            this.metroTextBox11.SelectedText = "";
+            this.metroTextBox11.Size = new System.Drawing.Size(270, 25);
+            this.metroTextBox11.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox11.StyleManager = this.metroStyleManager1;
+            this.metroTextBox11.TabIndex = 6;
+            this.metroTextBox11.Text = "(enter path to json file)";
+            this.metroTextBox11.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTextBox11.UseStyleColors = false;
+            this.metroTextBox11.Click += new System.EventHandler(this.metroTextBox11_DoubleClick);
+            this.metroTextBox11.DoubleClick += new System.EventHandler(this.metroTextBox11_DoubleClick);
+            this.metroTextBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.metroTextBox11_KeyPress);
+            // 
+            // metroLabel13
+            // 
+            this.metroLabel13.AutoSize = true;
+            this.metroLabel13.CustomBackground = false;
+            this.metroLabel13.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel13.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel13.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel13.Location = new System.Drawing.Point(56, 155);
+            this.metroLabel13.Name = "metroLabel13";
+            this.metroLabel13.Size = new System.Drawing.Size(197, 25);
+            this.metroLabel13.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel13.StyleManager = this.metroStyleManager1;
+            this.metroLabel13.TabIndex = 5;
+            this.metroLabel13.Text = "Add words from json file";
+            this.metroLabel13.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel13.UseStyleColors = false;
+            // 
+            // metroCheckBox4
+            // 
+            this.metroCheckBox4.AutoSize = true;
+            this.metroCheckBox4.CustomBackground = false;
+            this.metroCheckBox4.FontSize = MetroFramework.MetroLinkSize.Medium;
+            this.metroCheckBox4.FontWeight = MetroFramework.MetroLinkWeight.Regular;
+            this.metroCheckBox4.Location = new System.Drawing.Point(332, 65);
+            this.metroCheckBox4.Name = "metroCheckBox4";
+            this.metroCheckBox4.Size = new System.Drawing.Size(108, 19);
+            this.metroCheckBox4.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroCheckBox4.StyleManager = null;
+            this.metroCheckBox4.TabIndex = 4;
+            this.metroCheckBox4.Text = "Select Default";
+            this.metroCheckBox4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroCheckBox4.UseStyleColors = false;
+            this.metroCheckBox4.UseVisualStyleBackColor = true;
+            this.metroCheckBox4.CheckedChanged += new System.EventHandler(this.metroCheckBox4_CheckedChanged);
+            // 
+            // metroCheckBox3
+            // 
+            this.metroCheckBox3.AutoSize = true;
+            this.metroCheckBox3.CustomBackground = false;
+            this.metroCheckBox3.FontSize = MetroFramework.MetroLinkSize.Tall;
+            this.metroCheckBox3.FontWeight = MetroFramework.MetroLinkWeight.Regular;
+            this.metroCheckBox3.Location = new System.Drawing.Point(56, 106);
+            this.metroCheckBox3.Name = "metroCheckBox3";
+            this.metroCheckBox3.Size = new System.Drawing.Size(129, 25);
+            this.metroCheckBox3.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroCheckBox3.StyleManager = null;
+            this.metroCheckBox3.TabIndex = 3;
+            this.metroCheckBox3.Text = "White theme";
+            this.metroCheckBox3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroCheckBox3.UseStyleColors = false;
+            this.metroCheckBox3.UseVisualStyleBackColor = true;
+            this.metroCheckBox3.CheckedChanged += new System.EventHandler(this.metroCheckBox3_CheckedChanged);
+            // 
+            // metroTextBox10
+            // 
+            this.metroTextBox10.FontSize = MetroFramework.MetroTextBoxSize.Small;
+            this.metroTextBox10.FontWeight = MetroFramework.MetroTextBoxWeight.Regular;
+            this.metroTextBox10.Location = new System.Drawing.Point(56, 59);
+            this.metroTextBox10.Multiline = false;
+            this.metroTextBox10.Name = "metroTextBox10";
+            this.metroTextBox10.SelectedText = "";
+            this.metroTextBox10.Size = new System.Drawing.Size(270, 25);
+            this.metroTextBox10.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox10.StyleManager = this.metroStyleManager1;
+            this.metroTextBox10.TabIndex = 2;
+            this.metroTextBox10.Text = "Default";
+            this.metroTextBox10.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTextBox10.UseStyleColors = false;
+            this.metroTextBox10.Click += new System.EventHandler(this.metroTextBox10_DoubleClick);
+            this.metroTextBox10.DoubleClick += new System.EventHandler(this.metroTextBox10_DoubleClick);
+            this.metroTextBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.metroTextBox10_KeyPress);
+            // 
+            // metroLabel12
+            // 
+            this.metroLabel12.AutoSize = true;
+            this.metroLabel12.CustomBackground = false;
+            this.metroLabel12.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel12.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel12.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel12.Location = new System.Drawing.Point(56, 31);
+            this.metroLabel12.Name = "metroLabel12";
+            this.metroLabel12.Size = new System.Drawing.Size(159, 25);
+            this.metroLabel12.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel12.StyleManager = this.metroStyleManager1;
+            this.metroLabel12.TabIndex = 1;
+            this.metroLabel12.Text = "Background image:";
+            this.metroLabel12.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel12.UseStyleColors = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -3324,18 +3324,18 @@
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             this.metroTabControl1.ResumeLayout(false);
-            this.tabPage6.ResumeLayout(false);
-            this.tabPage6.PerformLayout();
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             this.ResumeLayout(false);
 
         }
