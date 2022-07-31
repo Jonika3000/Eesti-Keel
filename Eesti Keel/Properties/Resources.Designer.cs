@@ -81,62 +81,11 @@ namespace Eesti_Keel.Properties {
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Default.
         /// </summary>
-        internal static System.Drawing.Bitmap _2223615 {
+        internal static string BackgroundImage {
             get {
-                object obj = ResourceManager.GetObject("2223615", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap fon1 {
-            get {
-                object obj = ResourceManager.GetObject("fon1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap fon11 {
-            get {
-                object obj = ResourceManager.GetObject("fon11", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Ic_settings_48px_svg {
-            get {
-                object obj = ResourceManager.GetObject("Ic_settings_48px.svg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Ic_settings_48px1 {
-            get {
-                object obj = ResourceManager.GetObject("Ic_settings_48px1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Ic_settings_48px2 {
-            get {
-                object obj = ResourceManager.GetObject("Ic_settings_48px2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("BackgroundImage", resourceCulture);
             }
         }
         

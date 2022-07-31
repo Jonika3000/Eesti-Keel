@@ -518,14 +518,16 @@ namespace Eesti_Keel
         {
             Button btn = (Button)sender;
             metroTextBox4.Text += btn.Text;
-            SoundButtonClick();
+             SoundButtonClick();
         }
-        async void SoundButtonClick()
+        async Task  SoundButtonClick()
         {
             if (SoundKeys)
             {
-                SoundPlayer simpleSound = new SoundPlayer(@"Button_Click1.wav");
-                simpleSound.Play();
+                string RunningPath = AppDomain.CurrentDomain.BaseDirectory;
+                string FileName = string.Format("{0}Resources\\Button_Click1.wav", Path.GetFullPath(Path.Combine(RunningPath, @"..\..\..\")));
+                SoundPlayer simpleSound = new SoundPlayer(FileName);
+                 simpleSound.Play();
             }
 
         }
@@ -577,22 +579,29 @@ namespace Eesti_Keel
                 text = doc.Content.ToString();
 
             }
-            metroLabel15.Visible = true;
-            text = Filter(text, charsToRemove);
-            string[] wrds = text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            metroProgressSpinner1.Maximum = wrds.Count();
-            metroProgressSpinner1.Visible = true;
-            foreach (var w in wrds)
+            try
             {
-                string n = w.ToLower();
-                if (TranslateText(n, "ru", "et") != string.Empty)
+                metroLabel15.Visible = true;
+                text = Filter(text, charsToRemove);
+                string[] wrds = text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                metroProgressSpinner1.Maximum = wrds.Count();
+                metroProgressSpinner1.Visible = true;
+                foreach (var w in wrds)
                 {
-                    words.Add(new Words(n, TranslateText(n, "ru", "et").ToLower()));
+                    string n = w.ToLower();
+                    if (TranslateText(n, "ru", "et") != string.Empty)
+                    {
+                        words.Add(new Words(n, TranslateText(n, "ru", "et").ToLower()));
+                    }
+                    metroProgressSpinner1.Value++;
                 }
-                metroProgressSpinner1.Value++;
+                metroProgressSpinner1.Visible = false;
+                metroLabel15.Visible = false;
             }
-            metroProgressSpinner1.Visible = false;
-            metroLabel15.Visible = false;
+            catch
+            {
+
+            }
         }
         public static string Filter(string str, List<char> charsToRemove)
         {
@@ -607,6 +616,8 @@ namespace Eesti_Keel
         {
             if (input != string.Empty)
             {
+                input= FilterInput(input);
+
                 //var toLanguage = "ru";//English
                 //var fromLanguage = "et";//Estonian
                 var url = $"https://translate.googleapis.com/translate_a/single?client=gtx&sl={fromLanguage}&tl={toLanguage}&dt=t&q={HttpUtility.UrlEncode(input)}";
@@ -628,7 +639,28 @@ namespace Eesti_Keel
 
             return string.Empty;
         }
+        string FilterInput(string input)
+        {
 
+            for (int i = 0; i < input.Length-2; i++)
+            {
+                if (input[i]=='.')
+                {
+                    for(int j = i+1;j<input.Length-1;j++)
+                    {
+                        if (input[j] == ' ')
+                        {
+                            input= input.Remove(j, 1);
+                            j--;
+                        }
+                        else
+                            break;
+                    }
+                }
+              
+            }
+            return input;
+        }
         private void metroCheckBox2_CheckedChanged(object sender, EventArgs e)
         {
             metroTextBox6.Text = string.Empty;
@@ -769,7 +801,19 @@ namespace Eesti_Keel
         }
         private void SetStartBackgroundImage()
         {
-            string tmp = System.IO.File.ReadAllText("BackgroundImage.txt");
+            string tmp;
+            try
+            {
+                tmp = System.IO.File.ReadAllText("BackgroundImage.txt");
+            }
+            catch
+            {
+                tmp = Eesti_Keel.Properties.Resources.BackgroundImage;
+                System.IO.File.WriteAllText("BackgroundImage.txt", "Default");
+            }
+             
+          
+            //string tmp = (Properties.Resources.BackgroundImage);
             if (tmp == "Default")
             {
                 metroCheckBox4.Checked = true;
@@ -787,7 +831,7 @@ namespace Eesti_Keel
             if (metroCheckBox4.Checked == true)
             {
                 metroTextBox10.Text = "Default";
-                ChangeBackgroundImage(@"image\\1161810.jpg");
+                ChangeBackgroundImage(Eesti_Keel.Properties.Resources._1161810);
                 System.IO.File.WriteAllText("BackgroundImage.txt", "Default");
 
             }
@@ -809,7 +853,7 @@ namespace Eesti_Keel
                     System.IO.File.WriteAllText("BackgroundImage.txt", "Default");
                 }
                 try
-                {
+                { 
                     string name = FileName.Remove(0, FileName.LastIndexOf(@"\") + 1);
                     System.IO.File.WriteAllText("BackgroundImage.txt", @"image/" + name);
                     System.IO.File.Copy(FileName, @"image/" + name);
@@ -819,6 +863,22 @@ namespace Eesti_Keel
 
                 }
             }
+        }
+        void ChangeBackgroundImage(Image image)
+        {
+            metroTabControl1.TabPages[0].BackgroundImage = image;
+            metroTabControl1.TabPages[1].BackgroundImage = image;
+            metroTabControl1.TabPages[2].BackgroundImage = image;
+            metroTabControl1.TabPages[3].BackgroundImage = image;
+            metroTabControl1.TabPages[4].BackgroundImage = image;
+            metroTabControl1.TabPages[5].BackgroundImage = image;
+            metroTabControl1.TabPages[0].BackgroundImageLayout = ImageLayout.Stretch;
+            metroTabControl1.TabPages[1].BackgroundImageLayout = ImageLayout.Stretch;
+            metroTabControl1.TabPages[2].BackgroundImageLayout = ImageLayout.Stretch;
+            metroTabControl1.TabPages[3].BackgroundImageLayout = ImageLayout.Stretch;
+            metroTabControl1.TabPages[4].BackgroundImageLayout = ImageLayout.Stretch;
+            metroTabControl1.TabPages[5].BackgroundImageLayout = ImageLayout.Stretch;
+
         }
         void ChangeBackgroundImage(string path)
         {
@@ -836,7 +896,6 @@ namespace Eesti_Keel
             metroTabControl1.TabPages[5].BackgroundImageLayout = ImageLayout.Stretch;
 
         }
-
         private void metroTextBox10_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true;
